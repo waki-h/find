@@ -395,7 +395,7 @@ h1 {
   padding-top: 90px;
 }
 
-@media screen and (max-width:1025px) {
+@media screen and (max-device-width: 1024px),screen and (max-width: 1024px) {
 
   .topImg {
     height: 280px;
@@ -466,7 +466,7 @@ h1 {
 
   .topImg {
     background-image: url(../zinzaipic/topSp.jpg);
-    height: 100vh;
+    height: 85vh;
     background-position: center;
   }
 
