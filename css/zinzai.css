@@ -10,6 +10,7 @@ body *{
   background-size: cover;
   height: 70vh;
   position: relative;
+  background-position: center;
 }
 
 #pcNav {
@@ -395,11 +396,12 @@ h1 {
   padding-top: 90px;
 }
 
-@media screen and (max-device-width: 1024px),screen and (max-width: 1024px) {
+@media screen and (max-device-width:1024px),screen and (max-width:1024px) {
 
   .topImg {
-    height: 280px;
+    height: 350px;
     background-size: cover;
+
   }
 
   #pcNav {
@@ -415,7 +417,7 @@ h1 {
   }
 
   .mainBtn {
-    top: 220px;
+    top: 270px;
     font-size: 13px;
   }
 
@@ -460,13 +462,17 @@ h1 {
     padding: 14px 21px;
   }
 
+  .mainBtn {
+    top: 220px;
+  }
+
   .mainText p {
     font-size: 10px;
   }
 
   .topImg {
     background-image: url(../zinzaipic/topSp.jpg);
-    height: 85vh;
+    height: 100vh;
     background-position: center;
   }
 
